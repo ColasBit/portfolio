@@ -5,175 +5,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css.css">
-  <title>Portfolio</title>
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+  <title>Portfolio — Nicolas ZAGO</title>
+  <link rel="stylesheet" type='text/css' 
+    href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato:wght@400&display=swap"
     rel="stylesheet">
 </head>
 
 <body>
+  <!-- =============== HEADER (fixe) =============== -->
   <header>
-    <div>
+    <div class="header-brand">
       <h2>Nicolas ZAGO</h2>
+      <p class="header-tagline">Dev • Auteur</p>
     </div>
     <nav>
-      <a href="index.html">Accueil</a>
+      <a href="#" data-view="home">Accueil</a>
+      
       <div class="dropdown-container">
-        <a id="Projets" href="#">Projets ▼</a>
+        <a href="#" data-view="projets">Projets</a>
         <div class="sousmenu">
-          <div class="scroll-page">
-            <a class="partition" href="projetsUniversitaires.html">Projets Universitaires</a>
+          <div>
+            <a href="#" data-view="projets-perso">Projets Personnels</a>
           </div>
-          <div class="scroll-page">
-            <a class="partition" href="projetsPersonnels.html">Projets Personnels</a>
+          <div>
+            <a href="#" data-view="projets-uni">Projets Universitaires</a>
           </div>
         </div>
       </div>
 
-      <a href="formation.html">Diplômes & Formations</a>
-      <a href="LiensExternes/CV Nicolas ZAGO.pdf">CV</a>
-      <a href="presentation.html">Un peu plus sur moi</a>
-      <a href="contact.html">Contact</a>
+      <a href="#" data-view="formation">Diplômes & Formations</a>
+      <a href="#" data-view="presentation">Un peu plus sur moi</a>
+      <a href="#" data-view="tuf">📖 TUF</a>
+      <a href="#" data-view="contact">Contact</a>
     </nav>
   </header>
 
-  <main>
-
-    <section id="apropos" class="apropos-section">
-      <h2>À Propos de Moi</h2>
-
-      <div class="apropos-container">
-
-        <div class="bio-content enhanced-bio">
-          <h3>
-            <span class="text-gold">Tech</span> & <span class="text-gold shiver-text">Frissons</span>
-          </h3>
-
-          <div class="bio-intro-block">
-            <p>
-              Je m'appelle <span class="bio-highlight">Nicolas</span>. Je suis un étudiant passionné par l'intersection
-              entre la technologie rigoureuse et l'immersion narrative.
-            </p>
-            <p>
-              Mon parcours en <span class="bio-tech-tag">BUT Informatique</span> m'a donné les bases techniques (code,
-              architecture logicielle et réseaux), mais mon moteur, c'est l'envie de détourner ces outils pour créer des
-              émotions.
-            </p>
-          </div>
-
-          <div class="project-terminal-box">
-            <div class="terminal-header">
-              <div class="terminal-icon"><i class="devicon-bash-plain"></i></div>
-              <div class="terminal-title">DOSSIER PROJET : PROTOCOLE "NIGHT SHIFT"</div>
-              <a href="galaga.html" target="_blank" class="terminal-status blink">STATUS: ACTIF</a>
-            </div>
-
-            <div class="terminal-body">
-              <div class="scanline-overlay"></div>
-              <p class="terminal-boot-text">
-                > Initialisation du système narratif...<br>
-                > Connexion aux animatroniques : OK.<br>
-                > Chargement du module horrifique...
-              </p>
-              <p class="terminal-main-text">
-                Le reflet de ma dualité : une expérience immersive intégrant la conception de costumes et
-                l'automatisation de décors via des protocoles de communication série. Le projet mobilise systèmes
-                embarqués et informatique industrielle pour synchroniser le guidage vocal des antagonistes et la gestion
-                d'un réseau de surveillance multi-caméras.
-              </p>
-              <div class="terminal-alert">
-                ⚠️ OBJECTIF MISSION : Maîtriser l'imprévu et la technique atypique.
-              </div>
-            </div>
-          </div>
-        </div>
-        <h3>Ce qui m'anime</h3>
-        <div class="interests-column">
-
-
-          <div class="interest-card">
-            <div class="icon">💾</div>
-            <div class="text">
-              <h4>Informatique Rétro</h4>
-              <p>Redonner vie aux systèmes des années 90 pour créer des contrastes technologiques saisissants... comme
-                mon projet de simulateur d'OS en Python (voir plus bas)..</p>
-            </div>
-          </div>
-
-          <div class="interest-card">
-            <div class="icon">👻</div>
-            <div class="text">
-              <h4>Game Design & Horreur</h4>
-              <p>Étude des mécanismes de la peur (sound design, psychologie) pour des expériences mémorables.</p>
-            </div>
-          </div>
-
-          <div class="interest-card">
-            <div class="icon">📓</div>
-            <div class="text">
-              <h4>Story Telling & Dessin</h4>
-              <p>Conception visuelle d'animatroniques et de décors pour le show.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="vision-container">
-        <h3> Ma Vision : L'Ingénierie de l'Expérience</h3>
-
-        <div class="vision-container">
-          <div class="vision-bg-grid"></div>
-
-          <h3 class="vision-title" data-text="Ma Vision : L'Ingénierie de l'Expérience">
-            Ma Vision : L'Ingénierie de l'Expérience
-          </h3>
-
-          <div class="vision-content">
-            <div class="vision-text-block">
-              <p class="vision-intro">
-                Mon ambition ? Devenir <strong class="highlight-glitch">Ingénieur Expérientiel</strong>.
-                Je ne vise pas l'informatique de bureau, mais les coulisses des parcs à thèmes et des Escape Games
-                nouvelle génération.
-              </p>
-              <p>
-                À terme, je souhaite fonder une franchise de divertissement horrifique connectée par un "Lore" évolutif.
-              </p>
-            </div>
-
-            <div class="vision-cards">
-              <div class="v-card">
-                <div class="v-card-icon">⚠️</div>
-                <h4>L'IA Imprévisible</h4>
-                <p>Rendre les costumes d'animatroniques vivants et réactifs grâce au Game Master.</p>
-                <div class="v-card-border"></div>
-              </div>
-
-              <div class="v-card">
-                <div class="v-card-icon">📺</div>
-                <h4>Le "Malaise Technologique"</h4>
-                <p>Utiliser le vintage comme outil de narration pure.</p>
-                <div class="v-card-border"></div>
-              </div>
-
-              <div class="v-card">
-                <div class="v-card-icon">🕸️</div>
-                <h4>Storytelling Transmédia</h4>
-                <p>L'expérience commence avant même d'entrer dans la salle.</p>
-                <div class="v-card-border"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-    </section>
-
-
-
+  <!-- =============== MAIN CONTAINER (contenu chargé dynamiquement) =============== -->
+  <main id="app-container">
+    <!-- Les vues vont être chargées ici -->
+    <div id="view-loader" style="text-align: center; padding: 60px 20px; opacity: 0.6;">
+      <p>Chargement...</p>
+    </div>
   </main>
 
+  <!-- =============== FOOTER (fixe) =============== -->
   <footer>
-    <p> 2025 - Portfolio créé par Nicolas Zago</p>
+    <p>2026 — Portfolio & Créations de Nicolas ZAGO</p>
   </footer>
-  <script src="scroll.js"></script>
+
+  <!-- =============== VUES (Templates HTML stockés en JS) =============== -->
+  <!-- Il est crucial de charger ces fichiers AVANT le router.js -->
+  <script src="views/home.js"></script>
+  <script src="views/projets.js"></script>
+  <script src="views/projets-perso.js"></script>
+  <script src="views/projets-uni.js"></script>
+  <script src="views/formation.js"></script>
+  <script src="views/presentation.js"></script>
+  <script src="views/tuf.js"></script>
+  <script src="views/etudeIA.js"></script>
+  <script src="views/contact.js"></script>
+
+  <!-- =============== ROUTER SCRIPT =============== -->
+  <script src="router.js"></script>
 </body>
 
 </html>

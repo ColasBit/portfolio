@@ -1,0 +1,86 @@
+const html_etudeIA = `
+<section>
+            <h2 style="margin-top: 20px;">Étude Empirique : Réseau de Neurones</h2>
+
+            <div class="rapport-container">
+                <h3>Méthodologie & Environnement</h3>
+                <p class="analyse-text">
+                    Pour valider le comportement de mon moteur d'apprentissage par renforcement, j'ai isolé
+                    l'environnement de simulation et procédé à l'enregistrement des données sur plusieurs séries de
+                    <strong>300 générations minimum</strong>. L'objectif (<span class="tag-c2"
+                        style="font-size:0.8em; padding:2px 6px; background-color: #27ae60; color: white; border-radius: 4px;">Optimiser</span>) était d'observer l'impact de
+                    l'algorithme génétique sur la capacité de survie des entités.
+                </p>
+
+                <div class="general-env">
+                    <div class="env-item">
+                        <strong style="color: #f2c94c;">Taille du champ :</strong><br>
+                        <span style="color: #ccc;">1500px x 900px</span>
+                    </div>
+                    <div class="env-item">
+                        <strong style="color: #f2c94c;">Population :</strong><br>
+                        <span style="color: #ccc;">100 individus</span>
+                    </div>
+                    <div class="env-item">
+                        <strong style="color: #f2c94c;">Ressources :</strong><br>
+                        <span style="color: #ccc;">20 pommes</span>
+                    </div>
+                    <div class="env-item">
+                        <strong style="color: #f2c94c;">Menaces :</strong><br>
+                        <span style="color: #ccc;">15 monstres</span>
+                    </div>
+                </div>
+
+                <div class="graph-section">
+                    <h3>1. Évolution du Score et Domination Comportementale</h3>
+                    <p class="analyse-text">
+                        Lors de ces simulations, chaque "champion" est défini par un trait dominant :
+                        <strong>Colérique</strong> (agressif/actif), <strong>Passif</strong> ou
+                        <strong>Peureux</strong> (fuit même les Pommes). L'apprentissage modifie les poids du réseau neuronal pour optimiser la survie et la récolte de pommes.
+                    </p>
+
+                    <div class="tech-params">
+                        <strong>[SIMULATION 1] Paramètres du Réseau :</strong><br>
+                        • Inputs (Vision) : Position Monstres (X,Y), Position Pommes (X,Y), Biais de décision.<br>
+                        • Outputs : Vitesse (X,Y).<br>
+                        • Règles de l'environnement : Seuls les monstres peuvent tuer un individu.
+                    </div>
+                    <img src="images/simulation 1 graph - Copie.png" alt="Graphique Simulation 1" class="graph-img">
+
+                    <div class="tech-params" style="border-left-color: #e74c3c;">
+                        <strong>[SIMULATION 2] Ajout d'une contrainte :</strong><br>
+                        • Inputs (Vision) : Identique (Monstres, Pommes, Biais).<br>
+                        • Outputs : Vitesse (X,Y).<br>
+                        • Règles de l'environnement : Les monstres tuent + <strong>les bords de la cartes deviennent mortels</strong> si un individu y reste collé trop longtemps.
+                    </div>
+                    <img src="images/simulation 2 graph - Copie.png" alt="Graphique Simulation 2" class="graph-img">
+
+                    <p class="analyse-text">
+                        <strong>Observations :</strong> Les données montrent une nette suprématie évolutive du profil
+                        <strong>Colérique (en rouge)</strong>. Passé le cap de la génération 150, ce comportement
+                        monopolise les pics de performance. L'ajout de la mort par collision prolongée avec les murs (Sim 2) force l'IA à rester en mouvement, pénalisant grandement les profils Passifs et Peureux qui finissent par être supplantés dans le pool génétique.
+                    </p>
+                </div>
+
+                <div class="graph-section">
+                    <h3>2. Temps de survie et Apprentissage Spatial</h3>
+
+                    <div class="tech-params" style="border-left-color: #2980b9;">
+                        <strong>[SIMULATION 3] Évolution de la perception :</strong><br>
+                        • Inputs (Vision) : Monstre (X,Y), Pommes (X,Y), <strong>Mur (X), Mur (Y)</strong>, Biais de décision.<br>
+                        • Outputs : Vitesse (X,Y).<br>
+                        • Règles de l'environnement : Monstres mortels + Murs mortels (si contact prolongé).
+                    </div>
+                    <img src="images/Simulation 3 - Copie.png" alt="Graphique Temps de Survie" class="graph-img">
+
+                    <p class="analyse-text">
+                        <strong>Observations :</strong> En donnant au réseau de neurones la capacité de "voir" les murs (Inputs Mur X, Mur Y), on observe l'évolution du temps de survie (en frames). La <strong>forte volatilité</strong> illustre les "fails" d'adaptation liés aux mutations génétiques aléatoires. Cependant, la ligne de tendance globale est ascendante : l'IA apprend à esquiver à la fois les monstres et les bordures.
+                    </p>
+                    <p class="analyse-text"
+                        style="margin-top: 20px; border-left: 4px solid #f2c94c; padding-left: 15px;">
+                        <strong>Bilan de l'étude :</strong> L'ajout progressif de contraintes (bords de la carte éliminatioire) et de capteurs (vision spatiale des murs) prouve que le modèle s'adapte à la complexité de son environnement. C'est une illustration parfaite de l'évolution darwinienne appliquée au code : des impasses évolutives fréquentes, mais une optimisation structurelle sur le long terme.
+                    </p>
+                </div>
+            </div>
+        </section>
+`;

@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="fr">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css.css">
-  <title>Portfolio</title>
-  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Lato:wght@400&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <div>
-      <h2>Nicolas ZAGO</h2>
-    </div>
-    <nav>
-      <a href="index.html">Accueil</a>
-      <div class="dropdown-container">
-        <a id="Projets" href="#">Projets ▼</a>
-        <div class="sousmenu">
-          <div class="scroll-page">
-            <a class="partition" href="projetsUniversitaires.html">Projets Universitaires</a>
-          </div>
-          <div class="scroll-page">
-            <a class="partition" href="projetsPersonnels.html">Projets Personnels</a>
-          </div>
-        </div>
-      </div>
-
-      <a href="formation.html">Diplômes & Formations</a>
-      <a href="LiensExternes/CV Nicolas ZAGO.pdf">CV</a>
-      <a href="presentation.html">Un peu plus sur moi</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main>
+const html_formation = `
     <section id="referentiel-info">
       <h2>Portfolio d'Apprentissage</h2>
       <p style="margin-bottom: 20px;">
@@ -265,17 +226,4 @@
         </div>
 
       </div>
-    </section>
-
-
-
-
-  </main>
-
-  <footer>
-    <p> 2025 - Portfolio créé par Nicolas Zago</p>
-  </footer>
-  <script src="scroll.js"></script>
-</body>
-
-</html>
+    </section>`;
