@@ -21,6 +21,7 @@ function getHtmlTemplate(viewName) {
     case 'tuf':           return typeof html_tuf !== 'undefined' ? html_tuf : null;
     case 'etudeIA':       return typeof html_etudeIA !== 'undefined' ? html_etudeIA : null;
     case 'contact':       return typeof html_contact !== 'undefined' ? html_contact : null;
+    case 'stage-cnrs':    return typeof html_stageCnrs !== 'undefined' ? html_stageCnrs : null;
     default:              return null;
   }
 }

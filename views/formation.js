@@ -1,6 +1,6 @@
 const html_formation = `
     <section id="referentiel-info">
-      <h2>Portfolio d'Apprentissage</h2>
+      <h2 style="background: linear-gradient(135deg, #E63946, #1D3557); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Portfolio d'Apprentissage</h2>
       <p style="margin-bottom: 20px;">
         Le référentiel de compétences du BUT Informatique est le fil conducteur de ma formation.
         <strong>Vous retrouverez ces compétences réparties et illustrées directement sur chacun de mes projets</strong>

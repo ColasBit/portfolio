@@ -17,7 +17,7 @@ function handleContactForm(event) {
 // 2. On stocke le HTML dans la variable (sans la balise script !)
 const html_contact = `
 <section>
-  <h2>Contact</h2>
+  <h2 style="background: linear-gradient(135deg, #E63946, #1D3557); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Contact</h2>
   
   <div class="contact-container">
     <div class="contact-info">

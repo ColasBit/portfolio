@@ -1,6 +1,6 @@
 const html_presentation = `
 <section id="apropos" class="apropos-section">
-            <h2>Moi, entre Bug et Refactor</h2>
+            <h2 style="background: linear-gradient(135deg, #E63946, #1D3557); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Moi, entre Bug et Refactor</h2>
 
             <section id="passions">
                 <h2>Passions & Compétences Transverses</h2>

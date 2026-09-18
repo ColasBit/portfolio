@@ -830,7 +830,7 @@ nav a:hover {
 .tag-c3 { background-color: #1D3557; } /* Blue */
 .tag-c4 { background-color: #FF9E3E; } /* Orange */
 .tag-c5 { background-color: #A8DADC; } /* Light blue */
-.tag-c6 { background-color: #F1FAEE; color: #1D3557; } /* Cream */
+.tag-c6 { background-color: #abd69b; color: #1D3557; } /* Cream */
 
 .legend-container {
   display: flex;
