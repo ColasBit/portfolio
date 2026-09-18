@@ -5,7 +5,7 @@ const html_stageCnrs = `
   <section class="projet" style="margin: 60px 0;">
     <div class="projet-img-container">
       <img src="images/IMGT.png" alt="IMGT - Ressources Immunogénétiques" style="object-fit: cover;">
-    </div>
+    </div> 
     
     <div class="projet-info">
       <h3>Réalisation d'un Outil de Visualisation et d'Édition de Séquences ADN</h3>
