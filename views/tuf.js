@@ -5,7 +5,7 @@ const html_tuf=`
     <h1 style="background: linear-gradient(135deg, #E63946, #1D3557); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
       The Ultimate Fight
     </h1>
-    <p class="hero-tagline">Light Novel Français • Crowdfunding en cours 📖</p>
+    <p class="hero-tagline">Light Novel Français • Crowdfunding Terminé ! 📖</p>
   </div>
 </section>
 
@@ -34,7 +34,7 @@ const html_tuf=`
       <!-- Stats -->
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-number" style="color: var(--accent-red);">158%</div>
+          <div class="stat-number" style="color: var(--accent-red);">215%</div>
           <div class="stat-label">Financement Ulule</div>
         </div>
         <div class="stat-card">
@@ -77,34 +77,34 @@ const html_tuf=`
   
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
     <div class="competence-showcase">
-      <h3 style="color: var(--accent-red);">💼 Conduire un projet créatif</h3>
+      <h3 style="color: var(--accent-red);"> Direction de Projet & Production</h3>
       <p style="color: var(--text-medium);">
-        Gestion complète : scénario → illustrations → crowdfunding → production.
-        Analyse de marché, timing de lancement, stratégie de communication.
+        Pilotage de A à Z d'une licence transmédia : idéation, financement, production et livraison.
+        Gestion complète de la chaîne d'approvisionnement (Supply Chain) de l'impression physique à l'expédition finale.
       </p>
     </div>
 
     <div class="competence-showcase">
-      <h3 style="color: var(--accent-blue);">🎯 Collaboration pluridisciplinaire</h3>
+      <h3 style="color: var(--accent-blue);"> Coordination Internationale & Artistique</h3>
       <p style="color: var(--text-medium);">
-        Travail avec Atelier Hibiki (illustrations), chroniqueurs/bloggers, plateforme Ulule.
-        Coordination de ressources limitées pour un impact maximal.
+        Recrutement et management de prestataires (Atelier Hibiki en France, animateur 2D indépendant au Japon).
+        Rédaction de cahiers des charges techniques stricts (framerate, garantie de production sans IA).
       </p>
     </div>
 
     <div class="competence-showcase">
-      <h3 style="color: var(--accent-orange);">📊 Modèle économique viable</h3>
+      <h3 style="color: var(--accent-orange);"> Stratégie Financière & Logistique</h3>
       <p style="color: var(--text-medium);">
-        Stratégie de financement crowdfunding, calcul précis des marges, print-on-demand (zéro stock).
-        158% Ulule = validation de marché.
+        Élaboration d'une stratégie B2C éprouvée (campagne de crowdfunding validée). 
+        Négociation B2B des devis industriels, calcul précis des marges et pilotage de la rentabilité du produit.
       </p>
     </div>
 
     <div class="competence-showcase">
-      <h3 style="color: var(--accent-green, #2A9D8F);">🎨 Storytelling & Vision</h3>
+      <h3 style="color: var(--accent-green, #2A9D8F);"> Vision Produit & Développement Transmédia</h3>
       <p style="color: var(--text-medium);">
-        Narration complexe à plusieurs niveaux (métafiction, politique, philosophie).
-        IP originale avec potentiel d'adaptation (animation, jeu vidéo).
+        Création d'une Propriété Intellectuelle (IP) originale conçue pour de multiples supports (roman, animation 2D).
+        Élaboration de Pitch Decks stratégiques pour démarcher les acteurs majeurs de l'édition traditionnelle.
       </p>
     </div>
   </div>
